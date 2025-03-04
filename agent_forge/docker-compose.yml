@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  # Main Agent Forge application
+  agent-forge:
+    build: .
+    container_name: agent-forge
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+      - agent_data:/app/data
+    environment:
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    env_file:
+      - .env
+    command: streamlit run agent_forge/ui/app.py --server.port=8501 --server.address=0.0.0.0
+    restart: unless-stopped
+    depends_on:
+      - chroma
+    networks:
+      - agent-network
+
+  # ChromaDB vector database (optional)
+  chroma:
+    image: ghcr.io/chroma-core/chroma:latest
+    container_name: agent-forge-chroma
+    volumes:
+      - chroma_data:/chroma/chroma
+    ports:
+      - "8000:8000"
+    environment:
+      - ALLOW_RESET=true
+    networks:
+      - agent-network
+
+  # Ollama local model server (optional)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: agent-forge-ollama
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    networks:
+      - agent-network
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+volumes:
+  agent_data:
+  chroma_data:
+  ollama_data:
+
+networks:
+  agent-network:
+    driver: bridge

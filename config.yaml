@@ -1,0 +1,15 @@
+agent_defaults:
+  max_history_tokens: 2000
+  memory_enabled: true
+  tools_enabled: true
+database:
+  chroma:
+    persist_directory: ./chroma_db
+  type: chroma
+embedding:
+  model: text-embedding-ada-002
+  provider: openai
+llm:
+  openai:
+    model: gpt-3.5-turbo
+  provider: openai
