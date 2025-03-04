@@ -1,7 +1,9 @@
-# Agent Forge
+# Agent Forge (Version 1.0.0)
 
-!![alt text](image.png)
-**Agent Forge** is an open-source platform for building and managing AI agents with advanced capabilities. It provides a user-friendly interface for creating, configuring, and deploying AI assistants without needing to write code.
+![alt text](image.png) 
+![alt text](image-1.png)
+![alt text](image-2.png)
+file 
 
 ## 🌟 Features
 
@@ -54,7 +56,7 @@
 
 2. **Using Docker directly**
    ```bash
-   docker build -t agent-forge .
+   docker build -t agent-forge . 
    docker run -p 8501:8501 -v $(pwd)/.env:/app/.env agent-forge
    ```
 

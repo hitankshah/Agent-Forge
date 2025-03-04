@@ -1,0 +1,88 @@
+# Git
+.git
+.gitignore
+.github/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env
+.venv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+tests/
+
+# Documentation
+/site
+/docs/_build/
+
+# Local files
+README.md
+LICENSE
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Large files and directories that shouldn't be in the image
+data/
+*.weights
+*.h5
+*.pt
+*.onnx
+*.wav
+*.mp3
+*.mp4
+*.zip
+*.tar
+*.gz
