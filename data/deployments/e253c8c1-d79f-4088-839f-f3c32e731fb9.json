@@ -1,0 +1,17 @@
+{
+  "id": "e253c8c1-d79f-4088-839f-f3c32e731fb9",
+  "agent_id": "0337439e-c4ab-423a-8fda-2122bdf5d925",
+  "status": "active",
+  "config": {
+    "environment": "production",
+    "scaling": "auto",
+    "memory": 512,
+    "timeout": 60,
+    "created_at": "2025-03-06T22:08:36.976352",
+    "endpoint": "api/agents/0337439e-c4ab-423a-8fda-2122bdf5d925/query",
+    "model_assignments": {
+      "Calendar Management": "claude-2",
+      "Information Lookup": "claude-2"
+    }
+  }
+}

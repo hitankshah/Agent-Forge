@@ -2,10 +2,12 @@
 .git
 .gitignore
 .github/
+.gitattributes
 
 # Docker
 Dockerfile
 docker-compose.yml
+docker-compose.*.yml
 .dockerignore
 
 # Python cache files
@@ -14,6 +16,21 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
 venv/
@@ -58,12 +75,13 @@ nosetests.xml
 coverage.xml
 *.cover
 tests/
+test/
+pytest.ini
 
 # Documentation
 /site
 /docs/_build/
-
-# Local files
+docs/
 README.md
 LICENSE
 CHANGELOG.md
@@ -86,3 +104,8 @@ data/
 *.zip
 *.tar
 *.gz
+models/
+
+# Example and sample files
+examples/
+samples/

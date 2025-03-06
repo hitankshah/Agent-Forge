@@ -1,0 +1,44 @@
+{
+  "id": "1f526d1c-154f-4d15-a61d-e02527120d20",
+  "name": "hitank",
+  "description": "# AI Agent Builder Prompt\n\n## Core Purpose\nI need an AI agent that can [main function]. It should help users [primary benefit].\n\n## Key Capabilities\n- Process and understand [type of input]\n- Generate [type of output]\n- Handle [specific scenario]\n\n## Personality\n- Communication style: [formal/friendly/technical]\n- Response length: [concise/detailed]\n- Special traits: [helpful/creative/analytical]\n\n## Example Interaction\nUser: \"[typical user request]\"\nAgent: \"[ideal response]\"\n\n## Limitations\nThe agent should acknowledge when it can't [limitation].\n\n## Success Metrics\nI'll know this agent works well when it consistently [measurable outcome].",
+  "specification": {
+    "purpose": "Engage in helpful conversation",
+    "capabilities": [
+      {
+        "name": "Conversational Response",
+        "description": "Generate contextually appropriate and helpful responses",
+        "dependencies": [
+          "context_awareness",
+          "natural_language_understanding"
+        ],
+        "parameters": {
+          "style": "adaptive",
+          "memory": "session"
+        }
+      },
+      {
+        "name": "Personality",
+        "description": "Maintain consistent tone and personality",
+        "dependencies": [
+          "consistency",
+          "characterization"
+        ],
+        "parameters": {
+          "persona": "configurable"
+        }
+      }
+    ],
+    "knowledge_domains": [
+      "Conversation",
+      "Communication"
+    ],
+    "recommended_models": [
+      "gpt-3.5-turbo",
+      "claude-2",
+      "gemma-7b"
+    ],
+    "name": "hitank"
+  },
+  "created_at": "2025-03-06T22:53:40.684858"
+}

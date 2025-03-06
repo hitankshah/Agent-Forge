@@ -1,0 +1,84 @@
+{
+  "data_directory": "data",
+  "version": "1.0.0",
+  "default_database": "sqlite",
+  "database_config": {
+    "sqlite": {
+      "db_path": "data/unified_platform.db"
+    },
+    "postgres": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "password": "",
+      "database": "agent_platform"
+    },
+    "supabase": {
+      "url": "",
+      "key": "",
+      "table": "embeddings",
+      "schema": "public"
+    }
+  },
+  "api_keys": {
+    "openai": "",
+    "anthropic": "",
+    "cohere": "",
+    "huggingface": ""
+  },
+  "default_models": {
+    "openai": "gpt-3.5-turbo",
+    "anthropic": "claude-2",
+    "local": "phi-2"
+  },
+  "open_source_models": {
+    "gemma-7b": {
+      "path": "google/gemma-7b",
+      "requires_key": false,
+      "device": "cpu",
+      "quantization": "int8"
+    },
+    "llama-2-7b": {
+      "path": "meta-llama/Llama-2-7b-chat-hf",
+      "requires_key": true,
+      "device": "cpu",
+      "quantization": "int8"
+    },
+    "mistral-7b": {
+      "path": "models/mistral-7b",
+      "requires_key": false,
+      "device": "cpu",
+      "quantization": "int8",
+      "priority": 3
+    },
+    "phi-2": {
+      "path": "models/phi-2",
+      "requires_key": false,
+      "device": "cpu",
+      "quantization": "int8",
+      "priority": 2
+    },
+    "gemma-2b": {
+      "path": "models/gemma-2b",
+      "requires_key": false,
+      "device": "cpu",
+      "quantization": "int8",
+      "priority": 1
+    }
+  },
+  "vector_database": {
+    "type": "chromadb",
+    "path": "data/vector_db"
+  },
+  "ui": {
+    "theme": "light",
+    "logo": "logo.png",
+    "enable_animations": true
+  },
+  "system": {
+    "use_local_models": true,
+    "local_models_dir": "models",
+    "download_models_on_startup": true,
+    "preferred_model_order": ["phi-2", "gemma-2b", "mistral-7b"]
+  }
+}

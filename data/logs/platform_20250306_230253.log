@@ -1,0 +1,7 @@
+2025-03-06 23:02:53 - setup_logging - INFO - Logging initialized. Log file: data\logs\platform_20250306_230253.log
+2025-03-06 23:02:53 - UnifiedServer - INFO - Starting Streamlit server on port 8501 with script C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py
+2025-03-06 23:02:53 - UnifiedServer - INFO - Command: C:\Users\hitan\AppData\Local\Programs\Python\Python311\python.exe -m streamlit run C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py --server.port 8501
+2025-03-06 23:02:53 - UnifiedServer - INFO - Started integrated UI at http://localhost:8501
+2025-03-06 23:02:53 - UnifiedServer - INFO - Starting API server on port 8000
+2025-03-06 23:02:53 - UnifiedServer - INFO - Command: C:\Users\hitan\AppData\Local\Programs\Python\Python311\python.exe -m uvicorn api_server:app --host 0.0.0.0 --port 8000
+2025-03-06 23:02:53 - UnifiedServer - INFO - Started API server at http://localhost:8000

@@ -1,0 +1,10 @@
+{
+  "requirement_analysis": {
+    "system": "You are an expert AI system designer that can analyze user requirements and convert them into structured specifications. You always respond with valid, well-formed JSON.",
+    "user": "Please analyze the following agent requirements and provide a structured JSON specification. The JSON should include: purpose, capabilities (as an array), and knowledge_domains (as an array). Each capability should have name, description, and dependencies fields. Example JSON format:\n```json\n{\n  \"purpose\": \"string\",\n  \"capabilities\": [\n    {\n      \"name\": \"string\",\n      \"description\": \"string\",\n      \"dependencies\": [\"string\"]\n    }\n  ],\n  \"knowledge_domains\": [\"string\"]\n}\n```\n\nRequirements: {requirements}"
+  },
+  "capability_design": {
+    "system": "You are an expert AI capability designer who creates detailed specifications for AI agent capabilities. You only respond with valid, correctly formatted JSON.",
+    "user": "Design a detailed specification for the \"{capability_name}\" capability described as: {capability_description}. The response must be a JSON object with the following structure:\n```json\n{\n  \"name\": \"string\",\n  \"description\": \"string\",\n  \"parameters\": {\n    \"param1\": \"value1\"\n  },\n  \"implementation_notes\": \"string\",\n  \"dependencies\": [\"string\"],\n  \"performance_metrics\": [\"string\"]\n}\n```"
+  }
+}

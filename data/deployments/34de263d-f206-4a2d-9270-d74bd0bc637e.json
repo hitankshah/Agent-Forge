@@ -1,0 +1,17 @@
+{
+  "id": "34de263d-f206-4a2d-9270-d74bd0bc637e",
+  "agent_id": "1f526d1c-154f-4d15-a61d-e02527120d20",
+  "status": "active",
+  "config": {
+    "environment": "production",
+    "scaling": "auto",
+    "memory": 512,
+    "timeout": 60,
+    "created_at": "2025-03-06T22:53:47.357769",
+    "endpoint": "api/agents/1f526d1c-154f-4d15-a61d-e02527120d20/query",
+    "model_assignments": {
+      "Conversational Response": "gemma-7b",
+      "Personality": "claude-2"
+    }
+  }
+}

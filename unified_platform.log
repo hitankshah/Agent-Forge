@@ -1,0 +1,345 @@
+2025-03-06 17:29:43,929 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 17:29:45,675 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 17:29:45,676 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 17:29:45,720 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 17:29:45,732 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 17:29:46,765 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 17:29:47,166 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 17:29:47,167 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 17:29:47,167 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 17:29:47,167 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 17:29:47,168 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 17:29:47,168 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 17:29:47,168 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 17:29:47,169 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 17:37:44,107 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 17:37:46,055 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 17:37:46,055 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 17:37:46,096 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 17:37:46,105 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 17:37:47,171 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 17:37:47,575 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 17:37:47,576 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 17:37:47,576 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 17:37:47,576 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 17:37:47,577 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 17:37:47,577 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 17:37:47,577 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 17:37:47,578 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 17:46:56,440 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 17:46:56,728 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 17:46:59,222 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 17:46:59,223 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 17:46:59,224 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 17:46:59,224 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 17:46:59,308 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 17:46:59,308 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 17:46:59,327 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 17:46:59,334 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 17:47:01,621 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 17:47:01,621 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 17:47:01,705 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 17:47:01,705 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 17:47:01,706 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 17:47:01,706 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 17:47:01,707 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 17:47:01,707 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 17:47:01,708 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 17:47:01,709 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 17:47:01,723 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 17:47:01,723 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 17:47:01,724 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 17:47:01,725 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 17:47:01,726 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 17:47:01,727 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 17:47:01,727 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 17:47:01,728 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 17:49:18,855 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 17:49:18,860 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 17:49:18,860 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 17:49:18,861 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 17:49:18,864 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 17:49:18,977 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 17:49:18,978 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 17:49:18,978 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 17:49:18,978 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 17:49:18,979 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 17:49:18,979 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 17:49:18,979 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 17:49:18,980 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 17:49:43,251 - AgentBuilder - INFO - Selected model gpt-4 for task type requirement_analysis
+2025-03-06 17:49:43,251 - AgentBuilder - ERROR - Could not extract JSON from LLM response
+2025-03-06 17:50:02,444 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 17:50:02,450 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 17:50:02,450 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 17:50:02,450 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 17:50:02,452 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 17:50:02,513 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 17:50:02,513 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 17:50:02,513 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 17:50:02,514 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 17:50:02,514 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 17:50:02,514 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 17:50:02,515 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 17:50:02,515 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 17:51:41,424 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 17:51:41,428 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 17:51:41,428 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 17:51:41,429 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 17:51:41,430 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 17:51:41,491 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 17:51:41,491 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 17:51:41,491 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 17:51:41,491 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 17:51:41,492 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 17:51:41,492 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 17:51:41,492 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 17:51:41,493 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 17:52:05,408 - AgentBuilder - INFO - Selected model gpt-4 for task type requirement_analysis
+2025-03-06 17:52:05,408 - AgentBuilder - ERROR - Could not extract JSON from LLM response
+2025-03-06 18:05:02,979 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 18:05:05,022 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 18:05:05,022 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 18:05:05,067 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 18:05:05,076 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 18:05:06,286 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 18:05:06,783 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 18:05:06,784 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 18:05:06,784 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 18:05:06,784 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 18:05:06,785 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 18:05:06,786 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 18:05:06,786 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 18:05:06,787 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 18:05:14,549 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 18:05:14,556 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 18:05:14,556 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 18:05:14,559 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 18:05:14,563 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 18:05:14,665 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 18:05:14,665 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 18:05:14,665 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 18:05:14,666 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 18:05:14,667 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 18:05:14,667 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 18:05:14,668 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 18:05:14,668 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 18:14:42,056 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 18:14:43,860 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 18:14:43,861 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 18:14:43,903 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 18:14:43,912 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 18:14:45,067 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 18:14:45,484 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 18:14:45,485 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 18:14:45,485 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 18:14:45,485 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 18:14:45,486 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 18:14:45,487 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 18:14:45,487 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 18:14:45,488 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 18:16:46,482 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 18:16:49,087 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 18:16:49,087 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 18:16:49,152 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 18:16:49,166 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 18:16:51,186 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 18:16:51,955 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 18:16:51,955 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 18:16:51,956 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 18:16:51,957 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 18:16:51,957 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 18:16:51,958 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 18:16:51,959 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 18:16:51,960 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 19:27:52,220 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 19:27:54,122 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 19:27:54,122 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 19:27:54,169 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 19:27:54,179 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 19:27:55,283 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 19:27:55,618 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 19:27:55,619 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 19:27:55,619 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 19:27:55,619 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 19:27:55,620 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 19:27:55,620 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 19:27:55,620 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 19:27:55,621 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 19:28:30,249 - AgentBuilder - INFO - Selected model gpt-3.5-turbo for task type requirement_analysis
+2025-03-06 19:28:30,249 - AgentBuilder - ERROR - Could not extract JSON from LLM response
+2025-03-06 19:41:41,836 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 19:41:43,923 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 19:41:43,923 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 19:41:43,977 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 19:41:43,991 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 19:41:45,671 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 19:41:46,254 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 19:41:46,255 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 19:41:46,255 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 19:41:46,256 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 19:41:46,257 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 19:41:46,258 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 19:41:46,258 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 19:41:46,259 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 19:42:14,436 - AgentBuilder - INFO - Selected model gpt-3.5-turbo for task type requirement_analysis
+2025-03-06 19:42:14,437 - AgentBuilder - ERROR - Could not extract JSON from LLM response
+2025-03-06 19:44:11,916 - AgentBuilder - INFO - Selected model gpt-3.5-turbo for task type requirement_analysis
+2025-03-06 19:44:11,916 - AgentBuilder - ERROR - Could not extract JSON from LLM response
+2025-03-06 20:28:59,064 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 20:29:04,632 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 20:29:04,634 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 20:29:04,740 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 20:29:04,796 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 20:29:06,227 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 20:29:07,978 - UnifiedPlatform - ERROR - Error creating knowledge collection: no such column: collections.topic
+2025-03-06 20:29:07,980 - UnifiedPlatform - ERROR - Error creating capabilities collection: no such column: collections.topic
+2025-03-06 20:29:07,981 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 20:29:07,981 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 20:29:07,981 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 20:29:07,982 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 20:29:07,983 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 20:29:07,984 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 20:29:07,984 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 20:29:07,985 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 20:42:49,492 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 20:42:52,273 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 20:42:52,274 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 20:42:52,368 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 20:42:52,403 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 20:42:53,398 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 20:42:53,748 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 20:42:53,764 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 20:42:53,766 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 20:42:53,772 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 20:42:53,796 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 20:42:55,448 - UnifiedPlatform - ERROR - Error creating knowledge collection: no such column: collections.topic
+2025-03-06 20:42:55,450 - UnifiedPlatform - ERROR - Error creating knowledge collection: no such column: collections.topic
+2025-03-06 20:42:55,451 - UnifiedPlatform - ERROR - Error creating capabilities collection: no such column: collections.topic
+2025-03-06 20:42:55,453 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 20:42:55,454 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 20:42:55,454 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 20:42:55,455 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 20:42:55,456 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 20:42:55,457 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 20:42:55,457 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 20:42:55,458 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 20:42:55,465 - UnifiedPlatform - ERROR - Error creating capabilities collection: no such column: collections.topic
+2025-03-06 20:42:55,469 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 20:42:55,471 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 20:42:55,644 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 20:42:55,646 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 20:42:55,651 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 20:42:55,653 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 20:42:55,654 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 20:42:55,656 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 20:43:31,697 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 20:43:31,699 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 20:43:31,781 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 20:43:31,805 - UnifiedPlatform - INFO - SQLite database initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\unified_platform.db
+2025-03-06 20:43:33,217 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 20:43:34,640 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 20:43:35,147 - UnifiedPlatform - ERROR - Error creating knowledge collection: no such column: collections.topic
+2025-03-06 20:43:35,152 - UnifiedPlatform - ERROR - Error creating capabilities collection: no such column: collections.topic
+2025-03-06 20:43:35,153 - UnifiedPlatform - INFO - ChromaDB initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\vector_db
+2025-03-06 20:43:35,153 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 20:43:35,154 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 20:43:35,154 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 20:43:35,155 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 20:43:35,156 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 20:43:35,156 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 20:43:38,050 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 20:43:38,051 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 20:43:38,185 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 20:43:38,230 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 20:43:38,650 - UnifiedPlatform - INFO - Configuration loaded from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 20:43:38,658 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 20:43:38,659 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 20:43:38,661 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 20:43:38,668 - UnifiedPlatform - INFO - SQLite database initialized at data/unified_platform.db
+2025-03-06 20:43:39,498 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 20:43:40,876 - UnifiedPlatform - ERROR - Error creating knowledge collection: no such column: collections.topic
+2025-03-06 20:43:40,878 - UnifiedPlatform - ERROR - Error creating capabilities collection: no such column: collections.topic
+2025-03-06 20:43:40,878 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 20:43:40,879 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 20:43:40,879 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 20:43:40,882 - UnifiedPlatform - ERROR - Error creating knowledge collection: no such column: collections.topic
+2025-03-06 20:43:40,883 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 20:43:40,886 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 20:43:40,886 - UnifiedPlatform - ERROR - Error creating capabilities collection: no such column: collections.topic
+2025-03-06 20:43:40,886 - UnifiedPlatform - INFO - ChromaDB initialized at data/vector_db
+2025-03-06 20:43:40,887 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 20:43:40,887 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 20:43:40,887 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 20:43:40,888 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 20:43:40,889 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 20:43:40,890 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 20:43:40,893 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 20:43:40,898 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 20:43:40,900 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 20:43:41,019 - IntegratedUI - INFO - Unified platform initialized
+2025-03-06 21:18:26,833 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 21:18:26,833 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 21:18:26,898 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 21:18:26,959 - UnifiedPlatform - INFO - SQLite database initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\unified_platform.db
+2025-03-06 21:18:27,718 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 21:18:29,640 - UnifiedPlatform - INFO - ChromaDB initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\vector_db
+2025-03-06 21:18:29,640 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 21:18:29,640 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 21:18:29,641 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 21:18:29,642 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 21:18:29,642 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 21:18:29,643 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 21:28:28,093 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 21:28:28,093 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 21:28:28,139 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 21:28:28,153 - UnifiedPlatform - INFO - SQLite database initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\unified_platform.db
+2025-03-06 21:28:28,590 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 21:28:47,805 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 21:28:47,806 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 21:28:47,857 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 21:28:47,871 - UnifiedPlatform - INFO - SQLite database initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\unified_platform.db
+2025-03-06 21:28:48,388 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 21:28:49,926 - UnifiedPlatform - INFO - ChromaDB initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\vector_db
+2025-03-06 21:28:49,927 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 21:28:49,927 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 21:28:49,928 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 21:28:49,929 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 21:28:49,930 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 21:28:49,930 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 21:41:24,999 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 21:41:24,999 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 21:41:25,054 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 21:41:25,070 - UnifiedPlatform - INFO - SQLite database initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\unified_platform.db
+2025-03-06 21:41:25,675 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 21:41:26,831 - UnifiedPlatform - INFO - ChromaDB initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\vector_db
+2025-03-06 21:41:26,831 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 21:41:26,831 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 21:41:26,832 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 21:41:26,832 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 21:41:26,833 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 21:41:26,833 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 21:42:57,881 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 21:42:57,882 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 21:42:57,938 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 21:42:57,954 - UnifiedPlatform - INFO - SQLite database initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\unified_platform.db
+2025-03-06 21:42:58,772 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 21:42:59,974 - UnifiedPlatform - INFO - ChromaDB initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\vector_db
+2025-03-06 21:42:59,974 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 21:42:59,975 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 21:42:59,976 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 21:42:59,976 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 21:42:59,977 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 21:42:59,978 - UnifiedPlatform - INFO - Unified platform initialized successfully
+2025-03-06 21:50:11,817 - ModelProviders - WARNING - No OpenAI API key provided. Functionality will be limited.
+2025-03-06 21:50:11,818 - UnifiedPlatform - INFO - Agent builder components initialized
+2025-03-06 21:50:11,867 - UnifiedPlatform - INFO - Agent forge components initialized
+2025-03-06 21:50:11,882 - UnifiedPlatform - INFO - SQLite database initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\unified_platform.db
+2025-03-06 21:50:12,383 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-06 21:50:13,335 - UnifiedPlatform - INFO - ChromaDB initialized at C:\Users\hitan\OneDrive\Documents\GitHub\kl;\data\vector_db
+2025-03-06 21:50:13,335 - UnifiedPlatform - INFO - System metrics collection enabled
+2025-03-06 21:50:13,335 - UnifiedPlatform - INFO - Monitoring system initialized
+2025-03-06 21:50:13,336 - UnifiedPlatform - INFO - Loaded 0 agents from database
+2025-03-06 21:50:13,336 - UnifiedPlatform - INFO - Loaded 0 capabilities from database
+2025-03-06 21:50:13,337 - UnifiedPlatform - INFO - Loaded 0 deployments from database
+2025-03-06 21:50:13,337 - UnifiedPlatform - INFO - Unified platform initialized successfully

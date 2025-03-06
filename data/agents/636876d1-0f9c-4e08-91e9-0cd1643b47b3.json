@@ -1,0 +1,45 @@
+{
+  "id": "636876d1-0f9c-4e08-91e9-0cd1643b47b3",
+  "name": "Research Assistant",
+  "description": "AI agent that helps with academic research and paper analysis",
+  "specification": {
+    "purpose": "Help researchers analyze academic papers and extract key information",
+    "capabilities": [
+      {
+        "name": "Paper Analysis",
+        "description": "Extract key findings from research papers",
+        "dependencies": [
+          "document_understanding",
+          "summary"
+        ],
+        "parameters": {
+          "max_papers": 5
+        }
+      },
+      {
+        "name": "Citation Generation",
+        "description": "Generate citations for papers in various formats",
+        "dependencies": [
+          "metadata_extraction"
+        ],
+        "parameters": {
+          "formats": [
+            "APA",
+            "MLA",
+            "Chicago"
+          ]
+        }
+      }
+    ],
+    "knowledge_domains": [
+      "Academic Research",
+      "Scientific Papers",
+      "Citations"
+    ],
+    "recommended_models": [
+      "gpt-4",
+      "claude-3-opus"
+    ]
+  },
+  "created_at": "2025-03-06T21:53:17.296232"
+}

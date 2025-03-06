@@ -1,0 +1,23 @@
+# Template for docker-compose override file
+# Copy to docker-compose.override.yml and customize as needed
+version: '3.8'
+
+services:
+  agent-platform:
+    # Uncomment and modify as needed
+    # command: ["--ui", "integrated", "--debug"]
+    environment:
+      # Add your custom environment variables
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - COHERE_API_KEY=${COHERE_API_KEY}
+    # Uncomment to use GPU support
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  # Add additional services as needed below

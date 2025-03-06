@@ -1,0 +1,43 @@
+2025-03-06 23:00:25 - setup_logging - INFO - Logging initialized. Log file: data\logs\platform_20250306_230025.log
+2025-03-06 23:00:25 - UnifiedServer - INFO - Starting Streamlit server on port 8501 with script C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py
+2025-03-06 23:00:25 - UnifiedServer - INFO - Command: C:\Users\hitan\AppData\Local\Programs\Python\Python311\python.exe -m streamlit run C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py --server.port 8501
+2025-03-06 23:00:25 - UnifiedServer - INFO - Started integrated UI at http://localhost:8501
+2025-03-06 23:00:25 - UnifiedServer - INFO - Starting API server on port 8000
+2025-03-06 23:00:25 - UnifiedServer - INFO - Command: C:\Users\hitan\AppData\Local\Programs\Python\Python311\python.exe -m uvicorn api_server:app --host 0.0.0.0 --port 8000
+2025-03-06 23:00:25 - UnifiedServer - INFO - Started API server at http://localhost:8000
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Initializing sqlite database
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Initialized sqlite database and chromadb vector database
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Model providers initialized
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Agent builder initialized
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Loaded 13 agents and 4 deployments
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Unified Platform initialized
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:     Started server process [15408]
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:     Waiting for application startup.
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:     Application startup complete.
+2025-03-06 23:00:27 - UnifiedServer - ERROR - API Server error: INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-03-06 23:00:28 - UnifiedServer - INFO - Streamlit: 
+2025-03-06 23:00:28 - UnifiedServer - INFO - Streamlit: You can now view your Streamlit app in your browser.
+2025-03-06 23:00:28 - UnifiedServer - INFO - Streamlit: 
+2025-03-06 23:00:28 - UnifiedServer - INFO - Streamlit: Local URL: http://localhost:8501
+2025-03-06 23:00:28 - UnifiedServer - INFO - Streamlit: Network URL: http://192.168.0.100:8501
+2025-03-06 23:00:28 - UnifiedServer - INFO - Streamlit: 
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded configuration from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initializing sqlite database
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initialized sqlite database and chromadb vector database
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Model providers initialized
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent builder initialized
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded 13 agents and 4 deployments
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Unified Platform initialized
+2025-03-06 23:00:30 - UnifiedServer - ERROR - Streamlit error: INFO:IntegratedUI:Unified platform initialized
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded configuration from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initializing sqlite database
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initialized sqlite database and chromadb vector database
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Model providers initialized
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent builder initialized
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded 13 agents and 4 deployments
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Unified Platform initialized
+2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:IntegratedUI:Unified platform initialized
+2025-03-06 23:02:51 - UnifiedServer - INFO - Shutdown requested
+2025-03-06 23:02:51 - UnifiedServer - INFO - Streamlit process terminated
+2025-03-06 23:02:51 - UnifiedServer - INFO - API server process terminated
+2025-03-06 23:02:51 - UnifiedServer - INFO - Server shutting down

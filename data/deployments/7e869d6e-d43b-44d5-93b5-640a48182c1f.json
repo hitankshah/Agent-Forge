@@ -1,0 +1,17 @@
+{
+  "id": "7e869d6e-d43b-44d5-93b5-640a48182c1f",
+  "agent_id": "c2d90ae0-95bd-400d-af69-90e0adbf9ba4",
+  "status": "active",
+  "config": {
+    "environment": "production",
+    "scaling": "auto",
+    "memory": 512,
+    "timeout": 60,
+    "created_at": "2025-03-06T22:56:35.517883",
+    "endpoint": "api/agents/c2d90ae0-95bd-400d-af69-90e0adbf9ba4/query",
+    "model_assignments": {
+      "Conversational Response": "gpt-3.5-turbo",
+      "Personality": "gemma-7b"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ui": {
+    "builder_path": "agent_builder/ui/app.py",
+    "forge_path": "agent_forge/ui/main.py",
+    "integrated_path": "integrated_ui.py"
+  },
+  "server": {
+    "start_script": "start_server.py",
+    "api_script": "api_server.py",
+    "unified_server": "unified_server.py"
+  },
+  "ports": {
+    "ui": 8501,
+    "api": 8000,
+    "backend": 5000
+  },
+  "platform": {
+    "data_directory": "data",
+    "cache_directory": "cache",
+    "models_directory": "models"
+  },
+  "integrations": {
+    "enable_openai": true,
+    "enable_llama": true,
+    "enable_database": true
+  }
+}

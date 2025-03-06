@@ -1,0 +1,105 @@
+2025-03-06 22:52:18 - setup_logging - INFO - Logging initialized. Log file: data\logs\platform_20250306_225218.log
+2025-03-06 22:52:18 - UnifiedServer - INFO - Starting Streamlit server on port 8501 with script C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py
+2025-03-06 22:52:18 - UnifiedServer - INFO - Command: C:\Users\hitan\AppData\Local\Programs\Python\Python311\python.exe -m streamlit run C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py --server.port 8501
+2025-03-06 22:52:18 - UnifiedServer - INFO - Started integrated UI at http://localhost:8501
+2025-03-06 22:52:18 - UnifiedServer - INFO - Starting API server on port 8000
+2025-03-06 22:52:18 - UnifiedServer - INFO - Command: C:\Users\hitan\AppData\Local\Programs\Python\Python311\python.exe -m uvicorn api_server:app --host 0.0.0.0 --port 8000
+2025-03-06 22:52:18 - UnifiedServer - INFO - Started API server at http://localhost:8000
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Initializing sqlite database
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Initialized sqlite database and chromadb vector database
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Model providers initialized
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Agent builder initialized
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Loaded 10 agents and 2 deployments
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Unified Platform initialized
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:     Started server process [14728]
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:     Waiting for application startup.
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:     Application startup complete.
+2025-03-06 22:52:20 - UnifiedServer - ERROR - API Server error: INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-03-06 22:52:22 - UnifiedServer - INFO - Streamlit: 
+2025-03-06 22:52:22 - UnifiedServer - INFO - Streamlit: You can now view your Streamlit app in your browser.
+2025-03-06 22:52:22 - UnifiedServer - INFO - Streamlit: 
+2025-03-06 22:52:22 - UnifiedServer - INFO - Streamlit: Local URL: http://localhost:8501
+2025-03-06 22:52:22 - UnifiedServer - INFO - Streamlit: Network URL: http://192.168.0.100:8501
+2025-03-06 22:52:22 - UnifiedServer - INFO - Streamlit: 
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded configuration from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initializing sqlite database
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initialized sqlite database and chromadb vector database
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Model providers initialized
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent builder initialized
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded 10 agents and 2 deployments
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Unified Platform initialized
+2025-03-06 22:52:24 - UnifiedServer - ERROR - Streamlit error: INFO:IntegratedUI:Unified platform initialized
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded configuration from C:\Users\hitan\OneDrive\Documents\GitHub\kl;\config\integration_config.json
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initializing sqlite database
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Initialized sqlite database and chromadb vector database
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Model providers initialized
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent builder initialized
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded 10 agents and 2 deployments
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Unified Platform initialized
+2025-03-06 22:52:25 - UnifiedServer - ERROR - Streamlit error: INFO:IntegratedUI:Unified platform initialized
+2025-03-06 22:53:23 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Created agent: hitank (fa382cc8-35ad-4b50-94c9-ff8dde8f4331)
+2025-03-06 22:53:40 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Created agent: hitank (1f526d1c-154f-4d15-a61d-e02527120d20)
+2025-03-06 22:53:47 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Deployed agent 1f526d1c-154f-4d15-a61d-e02527120d20 as 34de263d-f206-4a2d-9270-d74bd0bc637e
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: 2025-03-06 22:53:55.232 Uncaught app exception
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: Traceback (most recent call last):
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 535, in _run_script
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: exec(code, module.__dict__)
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 1461, in <module>
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: run_app()
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 1458, in run_app
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: ui.render()
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 350, in render
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: self._render_agents_page()
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 806, in _render_agents_page
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: render_capability_network(capabilities)
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\components\visualizations.py", line 111, in render_capability_network
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: network_js = """
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: ^^^
+2025-03-06 22:53:55 - UnifiedServer - ERROR - Streamlit error: ValueError: unsupported format character ';' (0x3b) at index 110
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: 2025-03-06 22:54:14.644 Uncaught app exception
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: Traceback (most recent call last):
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 535, in _run_script
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: exec(code, module.__dict__)
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 1461, in <module>
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: run_app()
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 1458, in run_app
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: ui.render()
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 350, in render
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: self._render_agents_page()
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 806, in _render_agents_page
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: render_capability_network(capabilities)
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\components\visualizations.py", line 111, in render_capability_network
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: network_js = """
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: ^^^
+2025-03-06 22:54:14 - UnifiedServer - ERROR - Streamlit error: ValueError: unsupported format character ';' (0x3b) at index 110
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: 2025-03-06 22:54:17.673 Uncaught app exception
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: Traceback (most recent call last):
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 535, in _run_script
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: exec(code, module.__dict__)
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 1461, in <module>
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: run_app()
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 1458, in run_app
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: ui.render()
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 350, in render
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: self._render_agents_page()
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\integrated_ui.py", line 806, in _render_agents_page
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: render_capability_network(capabilities)
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: File "C:\Users\hitan\OneDrive\Documents\GitHub\kl;\components\visualizations.py", line 111, in render_capability_network
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: network_js = """
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: ^^^
+2025-03-06 22:54:17 - UnifiedServer - ERROR - Streamlit error: ValueError: unsupported format character ';' (0x3b) at index 110
+2025-03-06 22:54:28 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent 1f526d1c-154f-4d15-a61d-e02527120d20 queried: hey...
+2025-03-06 22:55:54 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent 1f526d1c-154f-4d15-a61d-e02527120d20 queried: # AI Agent Instructions
+2025-03-06 22:55:54 - UnifiedServer - ERROR - Streamlit error: 
+2025-03-06 22:55:54 - UnifiedServer - ERROR - Streamlit error: You are an AI assistant b...
+2025-03-06 22:56:24 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Created agent:  cijfihewfihwegih (c2d90ae0-95bd-400d-af69-90e0adbf9ba4)
+2025-03-06 22:56:35 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Deployed agent c2d90ae0-95bd-400d-af69-90e0adbf9ba4 as 7e869d6e-d43b-44d5-93b5-640a48182c1f
+2025-03-06 22:57:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent c2d90ae0-95bd-400d-af69-90e0adbf9ba4 queried: How does climate change affect biodiversity?...
+2025-03-06 22:58:03 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent c2d90ae0-95bd-400d-af69-90e0adbf9ba4 queried: yes...
+2025-03-06 22:58:21 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent c2d90ae0-95bd-400d-af69-90e0adbf9ba4 queried: yes...
+2025-03-06 22:58:29 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Agent c2d90ae0-95bd-400d-af69-90e0adbf9ba4 queried: "How does climate change affect biodiversity?"
+2025-03-06 22:58:29 - UnifiedServer - ERROR - Streamlit error: ...
+2025-03-06 23:00:24 - UnifiedServer - INFO - Shutdown requested
+2025-03-06 23:00:24 - UnifiedServer - INFO - Streamlit process terminated
+2025-03-06 23:00:24 - UnifiedServer - INFO - API server process terminated
+2025-03-06 23:00:24 - UnifiedServer - INFO - Server shutting down

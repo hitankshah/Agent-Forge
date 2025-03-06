@@ -20,6 +20,9 @@ import datetime
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("UnifiedPlatform")
 
+# Add a null handler to prevent logs from propagating up when not wanted
+logger.addHandler(logging.NullHandler())
+
 class UnifiedPlatform:
     """
     Unified platform for agent creation, management, and deployment.
@@ -178,7 +181,7 @@ class UnifiedPlatform:
         logger.info(f"Initialized {db_type} database and {vector_db_type} vector database")
     
     def _initialize_model_providers(self):
-        """Initialize model providers."""
+        """Initialize model providers.""" 
         # Dictionary to store model providers
         model_providers = {}
         
@@ -230,7 +233,7 @@ class UnifiedPlatform:
         logger.info("Model providers initialized")
     
     def _initialize_agent_builder(self):
-        """Initialize the agent builder component."""
+        """Initialize the agent builder component.""" 
         # Simple mock agent builder
         self.components["agent_builder"] = {
             "builder": AgentBuilder(self.components["model_providers"])
@@ -238,7 +241,7 @@ class UnifiedPlatform:
         logger.info("Agent builder initialized")
     
     def _load_registry(self):
-        """Load existing agents and deployments from disk."""
+        """Load existing agents and deployments from disk.""" 
         # Load agents
         agents_dir = os.path.join(self.config["data_directory"], "agents")
         if os.path.exists(agents_dir):
@@ -272,7 +275,7 @@ class UnifiedPlatform:
         logger.info(f"Loaded {len(self.registry['agents'])} agents and {len(self.registry['deployments'])} deployments")
     
     def _load_sample_agents(self):
-        """Load sample agents if no agents exist."""
+        """Load sample agents if no agents exist.""" 
         sample_agents = [
             {
                 "id": str(uuid.uuid4()),
@@ -974,6 +977,7 @@ class {cap_name.title().replace('_', '')}:
         return {{
             "response": f"Using {capability['name']} capability to address your query about {{query}}",
             "metadata": {{
+
                 "capability": "{capability['name']}",
                 "confidence": 0.9
             }}
@@ -1042,7 +1046,7 @@ requests>=2.28.0
             }
     
     def _generate_capability_conditionals(self, capabilities):
-        """Generate conditional code blocks for capabilities."""
+        """Generate conditional code blocks for capabilities.""" 
         blocks = []
         for capability in capabilities:
             cap_name = capability["name"].replace(" ", "_").lower()
@@ -1051,7 +1055,7 @@ requests>=2.28.0
         return "\n        ".join(blocks)
     
     def _generate_keyword_matching(self, capabilities):
-        """Generate keyword matching code for capability selection."""
+        """Generate keyword matching code for capability selection.""" 
         blocks = []
         for capability in capabilities:
             keywords = capability["name"].lower().split() + capability["description"].lower().split()[:5]
@@ -1064,7 +1068,7 @@ requests>=2.28.0
         return "\n        ".join(blocks)
     
     def _generate_capability_docs(self, capabilities):
-        """Generate markdown documentation for capabilities."""
+        """Generate markdown documentation for capabilities.""" 
         docs = []
         for capability in capabilities:
             params = ", ".join([f"`{k}`: {v}" for k, v in capability["parameters"].items()])
@@ -1075,6 +1079,8 @@ requests>=2.28.0
 class AgentBuilder:
     def __init__(self, model_provider):
         self.model_provider = model_provider
+        self.model_registry = ModelRegistry(model_provider)
+        self.default_model = "gpt-3.5-turbo"  # Default model
 
     def analyze_requirements(self, description: str) -> Dict[str, Any]:
         """
@@ -1104,3 +1110,26 @@ class AgentBuilder:
         except Exception as e:
             logger.error(f"Error analyzing requirements: {e}")
             return {"success": False, "errors": [str(e)]}
+
+class ModelRegistry:
+    """Registry for model providers and their available models."""
+    
+    def __init__(self, model_providers):
+        self.providers = model_providers or {}
+
+    def get_provider(self, provider_name: str) -> Optional[Dict[str, Any]]:
+        """Get a specific model provider by name."""
+        return self.providers.get(provider_name)
+    
+    def list_providers(self) -> List[str]:
+        """List all available model providers."""
+        return list(self.providers.keys())
+    
+    def get_available_models(self, provider_name: str) -> List[str]:
+        """Get available models for a specific provider."""
+        provider = self.get_provider(provider_name)
+        if provider and "models" in provider:
+            if isinstance(provider["models"], list):
+                return [m["name"] if isinstance(m, dict) else m for m in provider["models"]]
+            return []
+        return []
