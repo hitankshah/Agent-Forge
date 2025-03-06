@@ -112,3 +112,15 @@
 2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Loaded 13 agents and 4 deployments
 2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:UnifiedPlatform:Unified Platform initialized
 2025-03-06 23:00:31 - UnifiedServer - ERROR - Streamlit error: INFO:IntegratedUI:Unified platform initialized
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Initializing sqlite database
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Initialized sqlite database and chromadb vector database
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Model providers initialized
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Agent builder initialized
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Loaded 13 agents and 4 deployments
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:UnifiedPlatform:Unified Platform initialized
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:     Started server process [1876]
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:     Waiting for application startup.
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:     Application startup complete.
+2025-03-06 23:02:55 - UnifiedServer - ERROR - API Server error: INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2025-03-06 23:03:35 - UnifiedServer - ERROR - Streamlit error: Traceback (most recent call last):
+2025-03-06 23:03:35 - UnifiedServer - ERROR - Streamlit error: AttributeError: 'IntegratedUI' object has no attribute '_render_agent_type_step'
